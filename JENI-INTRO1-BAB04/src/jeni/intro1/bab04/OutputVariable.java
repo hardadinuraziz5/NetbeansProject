@@ -9,13 +9,13 @@ package jeni.intro1.bab04;
  *
  * @author hardadinuraziz
  */
-public class JENIINTRO1BAB04 {
-
-    /**
-     * 
-     */
-    public static void main(String[] args) {
-        System.out.print("Hello World");
+public class OutputVariable {
+    public static void main(String[] args){
+        int value = 10;
+        char x;
+        x = 'A';
+        
+        System.out.println(value);
+        System.out.println("The value of x= "+x);
     }
-    
 }
